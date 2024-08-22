@@ -43,6 +43,13 @@ alembic upgrade head
 uvicorn app.main:app --reload
 ```
 <br>
+После запуска сервера, перейдите в браузер и перейдите по по URL:
+
+```commandline
+http://127.0.0.1:8000/docs
+```
+
+<br>
 Для запуска тестов, нужно выполнить команду:
 
 ```commandline
